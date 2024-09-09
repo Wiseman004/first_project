@@ -1,197 +1,94 @@
+.logo img {
+    width: 107.54px;
+    height: 16.71px;
+}
+
+.header {
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+body {
+    background-color: black;
+}
+
+ul li {
+    display: inline-block;
+}
+
 ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    justify-content: right;
-    padding-right: 8px;
-    padding-right: 50px;
-
-}
-
-a {
-    text-decoration: none;
-    color: #4D4D4D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    vertical-align: middle;
-    font-size: small;
-    line-height: 1%;
-
-
-}
-
-li {
-    display: inline;
-    padding-bottom: 200px;
-
-}
-
-
-
-header {
-    display: flex;
-    width: 1002.34;
-    height: 100%;
-    padding-left: 75px;
-    padding-right: 75px;
-    justify-content: space-between;
-
-
-
-
-}
-
-nav {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    line-height: 30px;
-
-
-
-
-
-}
-
-.buttom {
-    background-color: #4CAF50;
-    border-radius: 3px;
-    color: white;
-    padding: 12px 20px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 11.14;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-nav a {
-    padding: 5px;
-    line-height: 13px;
-
-
-
-}
-
-.buttom a {
-    vertical-align: 20px;
-}
-
-.les {
+li a {
+    text-decoration: none;
     color: #4D4D4D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    padding: 16.71px;
 }
 
-#from {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.button {
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 2.78px;
+}
+
+.RightArrow {
+    vertical-align: baseline;
+    height: 11.14px;
+    width: 11.14px;
+}
+
+a,
+h1,
+h2,
+p {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4D4D4D;
+}
+
+h2 span {
     color: #4CAF4F;
+    font-size: 44.55px;
 }
 
-.greytext {
-    color: #4D4D4D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 11px;
+.block1 h2 {
+    font-size: 44.55px;
 }
 
-#reg {
-    background-color: #4CAF50;
-    border-radius: 3px;
-    color: white;
-    padding: 17px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11.14;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.Subtext {
+    color: #717171;
+    font-size: 11.14px;
 }
 
-#block1 {
-    display: inline-block;
-
-
-}
-
-#man {
-    width: 272px;
-    height: 283px;
-    float: right;
-}
-
-#allBlock1 {
-    margin: 67px 100px 67px 100px;
-
-
-}
-
-#dot {
-    text-align: center;
-    margin-bottom: 28px;
- 
-}
-
-.OurClients {
-    text-align: center;
-    padding: 0%;
-    margin-bottom: 28px;
-    margin: 11px 100px 0px 100px;
-}
-
-#logos {
-    justify-content: space-around;
+.block1 {
+    background-color: #F5F7FA;
+    justify-content: space-between;
     display: flex;
-    margin: 28px 100px 28px 100px;
 }
 
-.logos {
-    width: 33px;
-    height: 33px;
+.imgBlock1 {
+    width: 272.16px;
+    height: 283.3px;
 }
-
-#allBlock {
-    width: 100%;
-}
-
-#allBlock2 {
-    justify-content: space-around;
-    display: flex;
+.dots{
+    background-color: #F5F7FA;
     text-align: center;
-    margin: 28px 100px 28px 100px;
 }
-
-.texth1 {
-    color: #4D4D4D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 19.5px;
-    
+.clients {
+    background-color: white;
+    display: block;
+    text-align: center;
 }
-
-.textp {
-    color: #4D4D4D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 9.74px;
-    padding: 6px 22px 17px 22px;
+.Titletext{
+    font-size: 25.06px;
 }
-
-#allBlock2 img {
-    width: 45px;
-    height: 39px;
-}
-
-#allBlock2 div {
-    box-shadow: 0px 1px 3px 0px #ABBED1;
-    border-radius: 2px;
-    margin: 38px;
-}
-
-#Unlock {
-    width: 307px;
-    height: 301px;
-}
-
-#Unlockblock {
-    justify-content: space-around;
+.logoClients{
+    background-color: white;
     display: flex;
-    text-align: left;
-    margin: 11px 100px 0px 100px;
+    justify-content:space-between;
+}
+.logoClients img{
+    width: 33.41px;
+    height: 33.41px;
 }
