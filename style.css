@@ -1,6 +1,9 @@
-.logo img {
-    width: 107.54px;
-    height: 16.71px;
+a,
+h1,
+h2,
+p {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4D4D4D;
 }
 
 .header {
@@ -9,13 +12,18 @@
     display: flex;
 }
 
+.logo img {
+    width: 107.54px;
+    height: 16.71px;
+}
+
 body {
     background-color: black;
 }
 
 .navbar ul {
     display: inline-block;
-} 
+}
 
 .navbar ul li {
     display: inline-block;
@@ -33,34 +41,26 @@ body {
     border-radius: 2.78px;
 }
 
-.RightArrow {
+.rightArrow {
     vertical-align: baseline;
     height: 11.14px;
     width: 11.14px;
 }
 
 
-.FirstBlock {
+.firstBlock {
     background-color: #F5F7FA;
     justify-content: space-between;
     display: flex;
 }
 
-.FirstBlock h2 {
+.firstBlock h2 {
     font-size: 44.55px;
 }
 
-.FirstBlock h2 span {
+.firstBlock h2 span {
     color: #4CAF4F;
     font-size: 44.55px;
-}
-
-a,
-h1,
-h2,
-p {
-    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #4D4D4D;
 }
 
 .subText {
@@ -88,7 +88,7 @@ p {
     height: 8px;
     border-radius: 50%;
     background-color: #4CAF4F;
-    
+
 }
 
 .green-opacity-circle {
