@@ -10,6 +10,7 @@ p {
     background-color: white;
     justify-content: space-between;
     display: flex;
+    
 }
 
 .logo img {
@@ -48,6 +49,21 @@ body {
 }
 
 
+
+.firstBlock h2 span {
+    color: #4CAF4F;
+    font-size: 44.55px;
+}
+
+.firstBlock h2 {
+    font-size: 44.55px;
+    font-weight: 600;
+}
+
+.Subtext {
+    color: #717171;
+    font-size: 11.14px;
+}
 .firstBlock {
     background-color: #F5F7FA;
     justify-content: space-between;
@@ -107,6 +123,7 @@ body {
 
 .titleText {
     font-size: 25.06px;
+    font-weight:bold;
 }
 
 .logoClients {
@@ -118,4 +135,38 @@ body {
 .logoClients img {
     width: 33.41px;
     height: 33.41px;
+}
+.Titletext195{
+    font-size: 19.5px;
+    font-weight: 600;
+}
+.Subtext974{
+    font-size: 9.74px;
+}
+.advantages {
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 1px; 
+}
+.advantages img {
+    width: 45.24px;
+    height: 38.98px;
+}
+.allAdvantages{
+    display: flex;
+    justify-content:space-between;
+    border-radius: 5.57px;
+}
+.unlockAndText{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.unlockAndText img{
+    width: 307.34px;
+    height: 229px;
+}
+.Titletext25 span{
+    color: #4CAF4F;
+    font-size: 25.06px;
 }
