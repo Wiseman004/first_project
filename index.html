@@ -2,70 +2,60 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8" />
-
-    <title>title</title>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='reset.css'>
 </head>
 
 <body>
-    <header>
-        <img src="./src/logo.png" alt="logo" width="107.54" height="16.71" style="margin: 1%;">
-        <nav id="rightMenu">
+    <div class="header">
+        <div class="logo">
+            <img src="./src/logo.png" alt="logo">
+        </div>
+        <div class="navbar">
             <ul>
-
-                <li> <a href="#"> Home </a> </li>
-
-                <li> <a href="#"> Features </li> </a>
-
-                <li> <a href="#"> Community </li> </a>
-
-                <li> <a href="#"> Blog </li> </a>
-
-                <li> <a href="#"> Pricing </li></a>
-
-
+                <li><a href="#">Home </a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing</a></li>
             </ul>
-            <a href="#" class="buttom"> Register Now <img src="./src/right.svg" alt="RightArrow"
-                    style="vertical-align:middle;" width="10" height="12"></a>
-        </nav>
-    </header>
-    <main>
-    <div id="allBlock">
-        <div id="allBlock1">
-            <div id="block1">
-                <h1 class="les">Lessons and insights</h1>
-                <h1 id="from">from 8 years</h1>
-                <p class="greytext">Where to grow your business as a photographer: site or social media?</p>
-                <a href="#" id="reg"> Register</a>
-            </div>
-            <img src="./src/image.png" alt="man" id="man">
+            <a href="#" class="button">Register Now <img src="./src/rightArrow.svg" alt="RightArrow"
+                    class="rightArrow"></a>
+
         </div>
     </div>
-        <div id="dot">
-            <img src="./src/dot1.svg" alt="dot">
-            <img src="./src/dot2.svg" alt="dot">
-            <img src="./src/dot2.svg" alt="dot">
-        </div>
+    <div class="firstBlock">
         <div>
-            <div id="OurClients">
-                <h1 class="les" style="margin-bottom: 0%;"> Our Clients </h1>
-                <p class="greytext" style="margin-top: 0%;"> We have been working with some Fortune 500+ clients </p>
-            </div>
-            <div id="logos">
-                <img src="./src/logos clients/image.png" alt="logos" class="logos">
-                <img src="./src/logos clients/image copy.png" alt="logos" class="logos">
-                <img src="./src/logos clients/image copy 2.png" alt="logos" class="logos">
-                <img src="./src/logos clients/image copy 3.png" alt="logos" class="logos">
-                <img src="./src/logos clients/image copy 4.png" alt="logos" class="logos">
-                <img src="./src/logos clients/image copy 5.png" alt="logos" class="logos">
-                <img src="./src/logos clients/image copy 2.png" alt="logos" class="logos">  
-            </div>
-            <div></div>
+            <h2> Lessons and insights <br> <span> from 8 years </span> </h2>
+            <p class="subText">Where to grow your business as a photographer: site or social media?</p>
+            <a href="#" class="button">Register</a>
         </div>
-    </main>
-
-    <footer></footer>
+        <div class="dots">
+            <div class="green-circle"></div>
+            <div class="green-opacity-circle"></div>
+            <div class="green-opacity-circle"></div>
+        </div>
+        <img src="/src/imgBlock1.png" alt="imgBlock" class="imgBlock"> 
+      
+    </div>
+    
+    <div class="clients">
+        <h2 class="titleText"> Our Clients </h2>
+        <p class="subText">We have been working with some Fortune 500+ clients</p>
+    </div>
+    <div class="logoClients">
+        <img src="./src/logos clients/client1.png" alt="Client">
+        <img src="./src/logos clients/client2.png" alt="Client">
+        <img src="./src/logos clients/client3.png" alt="Client">
+        <img src="./src/logos clients/client4.png" alt="Client">
+        <img src="./src/logos clients/client5.png" alt="Client">
+        <img src="./src/logos clients/client6.png" alt="Client">
+        <img src="./src/logos clients/client3.png" alt="Client">
+    </div>
+    
 </body>
 
 </html>
