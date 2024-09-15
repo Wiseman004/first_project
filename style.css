@@ -19,8 +19,8 @@ p {
 }
 
 .logo img {
-    width: 107.54px;
-    height: 16.71px;
+    width: 108px;
+    height: 17px;
 }
 
 
@@ -35,13 +35,13 @@ p {
 .navbar li a {
     text-decoration: none;
     color: #4D4D4D;
-    padding: 16.71px;
+    padding: 17px;
 }
 
 .button {
     background-color: #4CAF4F;
     color: white;
-    border-radius: 2.78px;
+    border-radius: 3px;
     padding: 13px 28px 13px 28px;
     font-size: 11px;
 
@@ -51,24 +51,25 @@ p {
 }
 
 .rightArrow {
-    vertical-align: baseline;
-    height: 11.14px;
-    width: 11.14px;
+    vertical-align:-3px;
+    height: 11px;
+    width: 11px;
 }
 
 .firstBlock h2 span {
     color: #4CAF4F;
-    font-size: 44.55px;
+    font-size: 44px;
 }
 
-.firstBlock h2 {
-    font-size: 44.55px;
+.bigTitle {
+    font-size: 44px;
     font-weight: 600;
+    margin-bottom: 22px;
 }
 
 .subTitle {
     color: #717171;
-    font-size: 11.14px;
+    font-size: 11px;
 }
 .firstBlock {
     background-color: #F5F7FA;
@@ -79,24 +80,24 @@ p {
 }
 
 .firstBlock h2 {
-    font-size: 44.55px;
+    font-size: 44px;
 }
 
 .firstBlock h2 span {
     color: #4CAF4F;
-    font-size: 44.55px;
+    font-size: 44px;
 }
 
 .subText {
     color: #717171;
-    font-size: 11.14px;
+    font-size: 11px;
 }
 
 
 
 .imgBlock {
-    width: 272.16px;
-    height: 283.3px;
+    width: 272px;
+    height: 283px;
 }
 
 .dots {
@@ -135,7 +136,7 @@ p {
 }
 
 .titleText {
-    font-size: 25.06px;
+    font-size: 25px;
     font-weight:600;
     margin-bottom: 11px;
 }
@@ -149,8 +150,8 @@ p {
 }
 
 .logoClients img {
-    width: 33.41px;
-    height: 33.41px;
+    width: 33px;
+    height: 33px;
 }
 .heading{
     font-size: 19.5px;
@@ -170,21 +171,21 @@ p {
 
 }
 .advantages img {
-    width: 45.24px;
-    height: 38.98px;
+    width: 45px;
+    height: 39px;
 }
 .allAdvantages{
     display: flex;
     justify-content:space-between;
-    border-radius: 5.57px;
-    padding: 25px 100px 0px 100px;
+    border-radius: 6px;
+    padding: 25px 100px 30px 100px;
+    margin-bottom: 30px;
 }
 .unlockAndText{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px 50px 100px;
-    margin-top: 30px;
+    padding: 22px 100px 22px 100px;
     margin-bottom: 30px;
 }
 .unlockAndText img{
@@ -193,12 +194,12 @@ p {
 }
 .description span{
     color: #4CAF4F;
-    font-size: 25.06px;
+    font-size: 25px;
     font-weight:600;
 }
 .description{
     font-weight:600;
-    font-size: 25.06px;
+    font-size: 25px;
 }
 
 .allStatistics{
@@ -210,8 +211,8 @@ p {
 
 }
 .container-statistics img{
-    width: 33.41px;
-    height: 33.41px;
+    width: 33px;
+    height: 33px;
     margin-right: 11px;
 }
 .container-statistics{
@@ -219,4 +220,130 @@ p {
 }
 .statistics-padding{
     padding-bottom: 28px;
+}
+.green-text{
+    font-size: 14px;
+    color: #4CAF4F;
+    font-weight: 600;
+}
+.allCustomers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.allCustomers img{
+    width: 33px;
+    height: 33px;
+}
+.greenArrow{
+    color: #4CAF4F;
+    vertical-align: middle;
+}
+.light-gray-text{
+    font-size: 11px;
+    color: #89939E;
+    
+}
+.photo-laptop{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 11px;
+}
+.photo-laptop img{
+    height: 199px;
+    width: 256px;
+}
+.grey-text{
+    font-size: 14px;
+    color: #717171;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.above-image{
+    background-color: #F5F7FA;
+    border-radius: 6px;
+    width: 220px;
+    height: 123px;
+    position: relative;
+    left: calc(50% - 110px);
+    bottom: 65px;
+    padding: 11px;
+}
+.readmore-arrow{
+    display: flex;
+}
+.get-demo{
+    display: block;
+    justify-items: stretch;
+    padding: 40px;
+    background-color: #F5F7FA;
+}
+.get-demo-button {
+    position: relative;
+    left: calc(50% - 67px);
+}
+.footer{
+    background-color: #263238;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+
+}
+.footer-text{
+    color: #F5F7FA;
+    font-size: 10px;
+    padding-bottom: 8px;
+}
+.first-column{
+    display: block;
+    justify-items: auto;
+    
+}
+.first-column img{
+    width: 133px;
+    height: 21px;
+}
+.logo-social{
+    display: flex;
+}
+.logo-social img{
+    width: 22px;
+    height: 22px;
+    margin-right: 13px;
+   
+}
+.footer-block h2{
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 7px;
+    
+}
+.footer-block p{
+    font-size: 10px;
+    color: #F5F7FA;
+    font-weight: 100;
+    padding-top: 8px;
+    width: 100px;
+    
+} 
+.email-form {
+    display: flex;
+    align-items: center;
+    background-color: #86808054;
+    border-radius: 8px;
+    padding: 10px;
+    height: 35px;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.arrow-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
