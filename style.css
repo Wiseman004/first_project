@@ -6,10 +6,16 @@ p {
     color: #4D4D4D;
 }
 
+.wrapper{
+    max-width: 1002px;
+    margin: 0 auto;
+}
 .header {
     background-color: white;
     justify-content: space-between;
     display: flex;
+    padding: 18px 100px 20px 100px;
+    
 }
 
 .logo img {
@@ -17,9 +23,6 @@ p {
     height: 16.71px;
 }
 
-body {
-    background-color: black;
-}
 
 .navbar ul {
     display: inline-block;
@@ -39,6 +42,12 @@ body {
     background-color: #4CAF4F;
     color: white;
     border-radius: 2.78px;
+    padding: 13px 28px 13px 28px;
+    font-size: 11px;
+
+}
+.butmargin{
+    margin-bottom: 30px;
 }
 
 .rightArrow {
@@ -47,11 +56,26 @@ body {
     width: 11.14px;
 }
 
+.firstBlock h2 span {
+    color: #4CAF4F;
+    font-size: 44.55px;
+}
 
+.firstBlock h2 {
+    font-size: 44.55px;
+    font-weight: 600;
+}
+
+.subTitle {
+    color: #717171;
+    font-size: 11.14px;
+}
 .firstBlock {
     background-color: #F5F7FA;
     justify-content: space-between;
     display: flex;
+    padding: 67px 100px 67px 100px;
+    position: relative;
 }
 
 .firstBlock h2 {
@@ -78,44 +102,121 @@ body {
 .dots {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 272px;
-    right: 90px;
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 16px);
+    
 }
 
 .green-circle {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background-color: #4CAF4F;
-
+    margin-right: 4px;
 }
 
 .green-opacity-circle {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background-color: #4CAF4F;
-    opacity: .3
+    opacity: .3;
+    margin-right: 4px;
 }
 
 .clients {
     background-color: white;
     display: block;
     text-align: center;
+    padding-top: 28px;
+    padding-bottom: 6px;
+
 }
 
 .titleText {
     font-size: 25.06px;
+    font-weight:600;
+    margin-bottom: 11px;
 }
 
 .logoClients {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    padding:  11px 100px 28px 100px;
+    
 }
 
 .logoClients img {
     width: 33.41px;
     height: 33.41px;
+}
+.heading{
+    font-size: 19.5px;
+    font-weight: 600;
+
+    
+}
+.label{
+    font-size: 9.74px;
+
+
+}
+.advantages {
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 1px; 
+
+}
+.advantages img {
+    width: 45.24px;
+    height: 38.98px;
+}
+.allAdvantages{
+    display: flex;
+    justify-content:space-between;
+    border-radius: 5.57px;
+    padding: 25px 100px 0px 100px;
+}
+.unlockAndText{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.unlockAndText img{
+    width: 307.34px;
+    height: 229px;
+}
+.description span{
+    color: #4CAF4F;
+    font-size: 25.06px;
+    font-weight:600;
+}
+.description{
+    font-weight:600;
+    font-size: 25.06px;
+}
+
+.allStatistics{
+    background-color: #F5F7FA;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+    align-items: center;
+
+}
+.container-statistics img{
+    width: 33.41px;
+    height: 33.41px;
+    margin-right: 11px;
+}
+.container-statistics{
+    display: flex;
+}
+.statistics-padding{
+    padding-bottom: 28px;
 }
