@@ -6,16 +6,36 @@ p {
     color: #4D4D4D;
 }
 
-.wrapper{
+.wrapper {
     max-width: 1002px;
     margin: 0 auto;
 }
+
 .header {
     background-color: white;
     justify-content: space-between;
     display: flex;
     padding: 18px 100px 20px 100px;
-    
+
+}
+
+.burger-menu {
+    position: relative;
+}
+
+.burger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s;
 }
 
 .logo img {
@@ -46,14 +66,15 @@ p {
     font-size: 11px;
 
 }
-.butmargin{
+
+.butmargin {
     margin-bottom: 30px;
 }
 
 .rightArrow {
-vertical-align:-3px;
-height: 11px;
-width: 11px;
+    vertical-align: -3px;
+    height: 11px;
+    width: 11px;
 }
 
 .firstBlock h2 span {
@@ -70,6 +91,7 @@ width: 11px;
     color: #717171;
     font-size: 11.14px;
 }
+
 .firstBlock {
     background-color: #F5F7FA;
     justify-content: space-between;
@@ -98,6 +120,7 @@ width: 11px;
     color: #717171;
     font-size: 11px;
 }
+
 .firstBlock {
     background-color: #F5F7FA;
     justify-content: space-between;
@@ -133,7 +156,7 @@ width: 11px;
     position: absolute;
     bottom: 50px;
     left: calc(50% - 16px);
-    
+
 }
 
 .green-circle {
@@ -164,7 +187,7 @@ width: 11px;
 
 .titleText {
     font-size: 25px;
-    font-weight:600;
+    font-weight: 600;
     margin-bottom: 11px;
 }
 
@@ -172,8 +195,8 @@ width: 11px;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding:  11px 100px 28px 100px;
-    
+    padding: 11px 100px 28px 100px;
+
 }
 
 .logoClients img {
@@ -182,61 +205,71 @@ width: 11px;
     height: 33px;
 
 }
-.heading{
+
+.heading {
     font-size: 19.5px;
     font-weight: 600;
 
-    
+
 }
-.label{
+
+.label {
     font-size: 9.74px;
 
 
 }
+
 .advantages {
+    padding-top: 15px;
     text-align: center;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 1px; 
+    box-shadow: rgba(0, 0, 0, 0.027) 0px 1px 1px;
 
 }
+
 .advantages img {
 
     width: 45px;
     height: 39px;
 
 }
-.allAdvantages{
+
+.allAdvantages {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     border-radius: 6px;
     padding: 25px 100px 30px 100px;
     margin-bottom: 30px;
 
 }
-.unlockAndText{
+
+.unlockAndText {
     background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 22px 100px 22px 100px;
     margin-bottom: 30px;
 }
-.unlockAndText img{
+
+.unlockAndText img {
     width: 307.34px;
     height: 229px;
 }
-.description span{
+
+.description span {
     color: #4CAF4F;
     font-size: 25px;
 
-    font-weight:600;
+    font-weight: 600;
 }
-.description{
-    font-weight:600;
+
+.description {
+    font-weight: 600;
     font-size: 25px;
 
 }
 
-.allStatistics{
+.allStatistics {
     background-color: #F5F7FA;
     display: flex;
     justify-content: space-between;
@@ -244,61 +277,73 @@ width: 11px;
     align-items: center;
 
 }
-.container-statistics img{
+
+.container-statistics img {
 
     width: 33px;
     height: 33px;
 
     margin-right: 11px;
 }
-.container-statistics{
+
+.container-statistics {
     display: flex;
 }
-.statistics-padding{
+
+.statistics-padding {
     padding-bottom: 28px;
 }
-.green-text{
+
+.green-text {
     font-size: 14px;
     color: #4CAF4F;
     font-weight: 600;
 }
-.allCustomers{
+
+.allCustomers {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
-.allCustomers img{
+
+.allCustomers img {
     width: 33px;
     height: 33px;
 }
-.greenArrow{
+
+.greenArrow {
     color: #4CAF4F;
     vertical-align: middle;
 }
-.light-gray-text{
+
+.light-gray-text {
     font-size: 11px;
     color: #89939E;
-    
+
 }
-.photo-laptop{
+
+.photo-laptop {
     display: flex;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 11px;
 }
-.photo-laptop img{
+
+.photo-laptop img {
     height: 199px;
     width: 256px;
 }
-.grey-text{
+
+.grey-text {
     font-size: 14px;
     color: #717171;
     font-weight: 600;
     text-align: center;
-    
+
 }
-.above-image{
+
+.above-image {
     background-color: #F5F7FA;
     border-radius: 6px;
     width: 220px;
@@ -307,65 +352,78 @@ width: 11px;
     left: calc(50% - 110px);
     bottom: 65px;
     padding: 11px;
+
 }
-.readmore-arrow{
+
+.readmore-arrow {
     display: flex;
 }
-.get-demo{
+
+.get-demo {
     display: block;
     justify-items: stretch;
     padding: 40px;
     background-color: #F5F7FA;
 }
+
 .get-demo-button {
     position: relative;
     left: calc(50% - 67px);
 }
-.footer{
+
+.footer {
     background-color: #263238;
     display: flex;
     justify-content: space-between;
     padding: 30px 100px 30px 100px;
 
 }
-.footer-text{
+
+.footer-text {
     color: #F5F7FA;
     font-size: 10px;
     padding-bottom: 8px;
 }
-.first-column{
+
+.first-column {
     display: block;
     justify-items: auto;
-    
+
 }
-.first-column img{
+
+.first-column img {
     width: 133px;
     height: 21px;
 }
-.logo-social{
+
+.logo-social {
     display: flex;
 }
-.logo-social img{
+
+.logo-social img {
     width: 22px;
     height: 22px;
     margin-right: 13px;
-   
+
 }
-.footer-block h2{
+
+.footer-block h2 {
     font-size: 14px;
     color: white;
     font-weight: 600;
     padding-bottom: 7px;
-    
+
 }
-.footer-block p{
+
+.footer-block p {
     font-size: 10px;
     color: #F5F7FA;
     font-weight: 100;
     padding-top: 8px;
     width: 100px;
-    
-} 
+
+}
+
 .email-form {
     display: flex;
     align-items: center;
@@ -382,4 +440,178 @@ width: 11px;
     height: 16px;
     margin-right: 5px;
     margin-top: 5px;
+}
+
+@media screen and (min-width: 1020px) {
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .header {
+        padding: 18px 80px 20px 80px;
+    }
+
+    .reg-button {
+        display: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .firstBlock {
+        padding: 67px 80px 67px 80px;
+    }
+
+    .logoClients {
+        padding: 11px 80px 28px 80px;
+    }
+
+    .unlockAndText {
+        padding: 22px 80px 22px 80px;
+    }
+
+    .allAdvantages {
+        padding: 25px 80px 30px 80px;
+    }
+
+    .allStatistics {
+        padding: 30px 80px 30px 80px;
+    }
+    .clients{
+        padding: 0 80px 0 80px;
+    }
+    .photo-laptop {
+        display: block;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .above-image {
+        position: relative;
+        left: calc(50% - 110px);
+    }
+
+    .photo-laptop img {
+        margin-bottom: 7px;
+        position: relative;
+        left: calc(50% - 128px);
+
+    }
+
+    .footer {
+        padding: 30px 80px 30px 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 786px) {
+    .navbar {
+        display: none;
+    }
+
+    .header {
+        padding: 18px 50px 20px 50px;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .firstBlock {
+        padding: 67px 50px 67px 50px;
+    }
+
+    .imgBlock {
+        display: none;
+    }
+
+    .allStatistics {
+        padding: 30px 50x 30px 50px;
+        display: block;
+    }
+    .members-event{
+        padding-top: 25px;
+    }
+    .logoClients {
+        padding: 11px 50px 28px 50px;
+    }
+
+    .unlockAndText {
+        padding: 22px 50px 22px 50px;
+    }
+
+    .meet-all-customers {
+        display: none;
+    }
+
+    .allAdvantages {
+        padding: 25px 40px 30px 40px;
+
+    }
+    .clients{
+        padding: 0 50px 0 50px;
+    }
+    .footer {
+        padding: 30px 50px 30px 50px;
+        display: block;
+    }
+
+    .footer-block {
+        padding-bottom: 20px;
+    }
+
+    .first-column {
+        padding-bottom: 20px;
+    }
+}
+
+.email-form {
+    display: inline-block;
+    height: auto;
+}
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 18px 25px 20px 25px;
+    }
+
+    .firstBlock {
+        padding: 67px 25px 67px 25px;
+    }
+
+    .logoClients {
+        padding: 11px 15px 28px 15px;
+    }
+
+    .unlockAndText {
+        padding: 22px 25px 22px 25px;
+        display: block;
+    }
+
+    .allAdvantages {
+        padding: 25px 25px 30px 25px;
+        display: block;
+    }
+
+    .allStatistics {
+        padding: 30px 25px 30px 25px;
+
+    }
+    .clients{
+        padding: 0 25px 0 25px;
+    }
+    .bigTitle{
+        font-size: 25px;
+    }
+    .footer {
+        padding: 30px 25px 30px 25px;
+
+    }
+
 }
